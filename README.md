@@ -172,7 +172,7 @@ sudo nano genesis.json
 // look for "bootnodes" and update the below contents of the genesis.json
 ...
 "bootnodes": [
-"/ip4/15.188.145.41/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
+"/ip4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
 ]
 ...
 
@@ -258,8 +258,8 @@ create the folder for the node files
 
 ```
 cd ~
-git clone https://github.com/BlockgenStudioLLC/Arianee-External-Validator-Tool
-cd Arianee-External-Validator-Tool
+git clone https://github.com/Arianee/Polygon_Arianee_Supernet
+cd Polygon_Arianee_Supernet
 sudo mkdir /var/lib/edge
 sudo chown $user:$user /var/lib/edge
 sudo cp polygon-edge /usr/local/bin/
@@ -276,7 +276,7 @@ below is the edge_validator.service for your reference. you can modify the param
 ```
 [Unit]
 Description=Polygon Edge Client
-Documentation=https://github.com/0xPolygon/polygon-edge/
+Documentation=https://github.com/Arianee/Polygon_Arianee_Supernet
 
 # Bring this up after the network is online
 After=network-online.target
@@ -395,7 +395,7 @@ sudo nano genesis.json
 // look for "bootnodes" and update the below contents of the genesis.json
 ...
 "bootnodes": [
-"/dns4/<non-validator-domain-name>/tcp/10001/p2p/<non-validator-node-id>"
+"/ip4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
 ]
 ...
 
