@@ -1,6 +1,6 @@
 [Unit]
 Description=Polygon Edge Client
-Documentation=https://github.com/BlockgenStudioLLC/Arianee-External-Validator-Tool
+Documentation=https://github.com/Arianee/Arianee-External-Validator-Tool-main
 
 # Bring this up after the network is online
 After=network-online.target

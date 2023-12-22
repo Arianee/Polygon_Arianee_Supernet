@@ -233,6 +233,6 @@
         "burnContractDestinationAddress": "0xE2A60bd2a232E7b133b3Cf338D4367d1EB1F3550"
     },
     "bootnodes": [
-        "/dns4/<non-validator-domain-name>/tcp/10001/p2p/<non-validator-node-id>"
+        "/dns4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
     ]
 }
