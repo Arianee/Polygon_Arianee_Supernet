@@ -172,7 +172,7 @@ sudo nano genesis.json
 // look for "bootnodes" and update the below contents of the genesis.json
 ...
 "bootnodes": [
-"/ip4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
+"/dns4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
 ]
 ...
 
@@ -395,7 +395,7 @@ sudo nano genesis.json
 // look for "bootnodes" and update the below contents of the genesis.json
 ...
 "bootnodes": [
-"/ip4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
+"/dns4/bootnode1.polygonsupernet.arianee.net/tcp/10001/p2p/16Uiu2HAm2ZGC6fkLwmY4pJDBJEqFouTsQ6izStEaYRom7uGzGFTE"
 ]
 ...
 
